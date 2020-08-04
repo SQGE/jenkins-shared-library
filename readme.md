@@ -12,7 +12,7 @@
 # 项目存储库在项目根目录
 ### pipeline.yaml 
 ```
-type: test
+type: python
 node: master
 ```
 ### jenkinsfile
