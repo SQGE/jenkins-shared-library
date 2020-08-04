@@ -18,7 +18,7 @@ node: master
 ### jenkinsfile
 ```
 #!groovy   
-@Library('jenkinslibrary@master') _
+@Library('jenkins-shared-library@master') _
 
 runPipeline()
 ```
