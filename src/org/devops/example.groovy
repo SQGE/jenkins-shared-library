@@ -1,7 +1,7 @@
 #!groovy
 pipeline{
     // 定义使用构建的jenkins 主机
-    agetnt{
+    agent{
         // 在任何可用的节点上执行Pipeline
         any {}
         // 当在 pipeline 块的顶部没有全局代理， 该参数将会被分配到整个流水线的运行中并且每个 stage 部分都需要包含他自己的 agent 部分
